@@ -17,4 +17,6 @@ jobs:
         port: 21
         protocol: ftp
         server-dir: public_html/
+        include:
+          - "**/*"
         dry-run: true
