@@ -17,3 +17,5 @@ jobs:
         port: 21
         protocol: ftp
         server-dir: public_html/
+        local-dir: public_html/
+        dry-run: true
